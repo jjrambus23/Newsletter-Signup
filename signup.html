@@ -34,11 +34,11 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <form class="form-signin">
+    <form action="/" class="form-signin" method="post">
   <h1 class="h3 mb-3 font-weight-normal">Sign up to my Newsletter</h1>
-  <input type="text" id="first-name" class="form-control top" placeholder="First Name" required autofocus>
-  <input type="text" id="last-name" class="form-control middle" placeholder="Last Name" required autofocus>
-  <input type="email" id="inputEmail" class="form-control bottom" placeholder="Email" required autofocus>
+  <input type="text" name="fName" id="first-name" class="form-control top" placeholder="First Name" required autofocus>
+  <input type="text" name="lName" id="last-name" class="form-control middle" placeholder="Last Name" required>
+  <input type="email" name="email" id="inputEmail" class="form-control bottom" placeholder="Email" required>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign me up</button>
 </form>
 </body>
